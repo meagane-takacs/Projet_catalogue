@@ -1,0 +1,67 @@
+#Boutique {
+    margin-top: 20px;
+    color: blue dashed;
+    font-family: "Segoe Script";
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    background: antiquewhite;
+    text-shadow:  2px 2px 12px black;
+
+}
+
+.container1 {
+    border-radius: 20px;
+    color: blue dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px 10px 20px 10px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.container2 {
+    border-radius: 20px;
+    border-color: blue dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px black;
+    margin: 20px 10px 20px 10px;
+}
+.container3 {
+    border-radius: 20px;
+    border-color: blue dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px black;
+    margin: 20px 10px 20px 10px;
+}
+
+.articles {
+    background: antiquewhite;
+    padding: 5px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.photos {
+    max-width: 400px;
+    border-radius: 50px;
+}
+
+.price {
+    font-family: "Lucida Sans Unicode";;
+    font-size: 20px;
+    margin: auto;
+
+
+}
+
+
