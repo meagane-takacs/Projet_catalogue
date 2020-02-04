@@ -1,5 +1,8 @@
+<!--CE FICHIER EST UNE BOITE A OUTIL OU IL Y A TOUTES MES FONCTIONS-->
+
 <?php
 
+// Ma première fonction permet d'appeler chaque article de façon indépendante.
 function afficheArticle1()
 {
     $article1 = array('photos/Bracelet1.jpg', 'Bracelet', 200);
@@ -64,20 +67,41 @@ function afficheArticle($article)
 
 // deuxième fonction qui est plus simple que la première mais fait la même chose et répond au consigne
 
-function afficheArticlebis($name, $price, $img)
+function afficheArticlebis($key, $name, $price, $img)
 {
    ?>
     <div class="<?php echo 'container1'?>">
+
           <img class="photos" src="<?php echo $img ?>"/>
-          <div class="articles">
-                    <?php echo $name ?>
+          <div class="articles"><p><?php echo $name ?></p>
+
           </div>
-          <div class="price">
-                    <p>
-                        <?php echo  $price ?> euros
-                    </p>
-                </div>
+          <div class="price"><p><?php echo  $price ?> euros</p>
+          </div>
+
+        <input type="checkbox" name="choix[]" class="choice" value="<?php echo $key?>">
+
+        <label for="tentacles">Quantité:</label>
+        <input type="number" id="tentacles" name="tentacles"
+               min="1" max="100">
      </div>
+
     <?php
+
 }
+
+
+
+function totalPanier($sum,$price_article)
+    {
+        return $sum =$sum+ $price_article ;
+    }
+
+
+
+
 ?>
+
+
+
+
