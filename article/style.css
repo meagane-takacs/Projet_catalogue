@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nom {
+    font-family: "Cambria Math";
+    font-size: 50px;
+    margin: auto;
+}
+
+.px {
+    margin: auto;
+}
+
+.prix {
+    font-family: "Cambria Math";
+    margin: auto;
+    font-size: 30px;
+}

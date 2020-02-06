@@ -1,5 +1,6 @@
 #Boutique {
     margin-top: 20px;
+    color: blue dashed;
     font-family: "Segoe Script";
     font-size: 80px;
     display: flex;
@@ -11,15 +12,35 @@
 
 .container1 {
     border-radius: 20px;
+    color: blue dashed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin: 20px 10px;
+    margin-top: 20px;
+    margin: 20px 10px 20px 10px;
     box-shadow: 2px 2px 20px black;
-    height: 500px;
 }
 
+.container2 {
+    border-radius: 20px;
+    border-color: blue dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px black;
+    margin: 20px 10px 20px 10px;
+}
+.container3 {
+    border-radius: 20px;
+    border-color: blue dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px black;
+    margin: 20px 10px 20px 10px;
+}
 
 .articles {
     background: antiquewhite;
@@ -28,7 +49,6 @@
     font-size: 30px;
     margin: auto;
     border-radius: 10px;
-    max-height: 50px;
 }
 
 .photos {
@@ -37,24 +57,11 @@
 }
 
 .price {
-    font-family: "Lucida Sans Unicode";
+    font-family: "Lucida Sans Unicode";;
     font-size: 20px;
     margin: auto;
-    max-height: 50px;
 
 
 }
 
-.choice {
-    margin-top: 5px;
-    margin-right: 60px;
-}
-
-.submit {
-    display: flex;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-}
 
